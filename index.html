@@ -9,8 +9,9 @@
     <title>SG星皇</title>
     <link href="./index/index-css/minireset.min.css" rel="stylesheet">
     <link href="./index/index-css/main.css" rel="stylesheet">
-    <link rel="icon" href="https://stargolx.github.io/Resources/img/icon/user.png">
-    <link rel="stylesheet" href="">
+    <link rel="icon" href="https://stargolx.github.io/Resources/img/icon/sg_blue.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bucdn/homepage@latest/2/css/font-awesome.min.css?ver=1.1202">
+    <link rel="stylesheet" href="https://stargolx.github.io/afont/css/a-font.sg.css">
     <!-- Some scripts -->
     <script src="./index/index-js/jquery.min.js"></script>
     <script src="./index/index-js/main.js"></script>
@@ -18,18 +19,17 @@
     <script src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
     <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-</head>
-<body>
-    <div id="gtag">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177082203-1"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177082203-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag() { dataLayer.push(arguments); }
             gtag('js', new Date());
             gtag('config', 'UA-177082203-1');
         </script>
-    </div>
+    <!-- Global site tag (gtag.js) - Google Analytics end -->
+</head>
+<body>
     <div class="loading">
         <!-- Loading hover -->
         <div class="spinner">
@@ -55,12 +55,18 @@
                         <a goto="#programming">PROGRAMMING</a>
                     </li>
                     <li>
+                        <a goto="#activity">ACTIVITY</a>
+                    </li>
+                    <li>
+                        <a goto="#donate">DONATE</a>
+                    </li>
+                    <li>
                         <a goto="#contact">CONTACT</a>
                     </li>
                 </ul>
                 <div class="copyright">
                     Made with
-                    <i class="fa fa-heart"></i> by
+                    <i class="af af-heart"></i><i class="fa fa-heart"></i> by
                     <br>
                     <a href="index.html" target="_blank">StarGolx</a>
                 </div>
@@ -74,26 +80,45 @@
                 </section>
                 <section id="programming">
                     <h1>编程</h1>
-                    <ul class="HTML">
+                    <ul id="HTML">
                         <a href="./error.html">HTML</a>
                         <a href="https://stargolx.github.io/HTML/" style="display: none;">HTML</a>
                     </ul>
-                    <ul class="ZeroStartPage">
-                        <a href="https://stargolx.github.io/ZeroStartPage/">Zero起始页</a>
+                    <ul id="ToolBox">
+                        <a href="https://stargolx.github.io/ToolBox">ZAIO工具箱</a>
                     </ul>
+                    <ul id="ZeroStartPage">
+                        <a href="https://stargolx.github.io/ZeroStartPage/">零主页</a>
+                    </ul>
+                </section>
+                <section id="activity">
+                    <h1>动态</h1>
+                    
+                </section>
+                <section id="donate">
+                    <h1>赞助</h1>
+                    <div class="wechat">
+
+                    </div>
+                    <div class="alipay">
+
+                    </div>
                 </section>
                 <section id="contact">
                     <h1>捕捉方式</h1>
                     <div class="items">
                         <a href="index.html" target="_blank">
+                            <i class="af af-home"></i>
                             <i class="fa fa-home"></i>
                             <span>Blog</span>
                         </a>
                         <a href="https://github.com/StarGolx" target="_blank">
+                            <i class="af af-github"></i>
                             <i class="fa fa-github"></i>
                             <span>GitHub</span>
                         </a>
-                        <a href="mailto:stargolx28571@gmail.com" target="_blank">
+                        <a href="mailto:stargolx@hotmail.com" target="_blank">
+                            <i class="af af-envelope"></i>
                             <i class="fa fa-envelope"></i>
                             <span>E-Mail</span>
                         </a>
@@ -104,9 +129,8 @@
         <footer>
             <div class="copyright-mobile">
                 Made with
-                <i class="fa fa-heart"></i> by
+                <i class="af af-heart"></i><i class="fa fa-heart"></i> by
                 <a href="#" target="_blank">StarGolx</a>
-
             </div>
         </footer>
     </main>
